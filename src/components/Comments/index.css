@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.comment-card {
+  background-color: white;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 80%;
+}
+.heading {
+  font-size: 40px;
+  font-family: roboto;
+  font-weight: bold;
+}
+.para {
+  color: #1e293b;
+  font-family: roboto;
+}
+.comment-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.comment-img-and-input-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+.text-area {
+  margin-bottom: 15px;
+  border-radius: 7px;
+}
+.buton {
+  background-color: #0284c7;
+  color: white;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 7px;
+}
+.comment-img {
+  width: 300px;
+}
+.num-of-commments {
+  color: #475569;
+  font-family: roboto;
+  font-size: 20px;
+}
+.count {
+  background-color: #0284c7;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+.unordered-list {
+  width: 90%;
+}
+@media (max-width: 767px) {
+  .comment-img-and-input-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .comment-img {
+    width: 300px;
+  }
+  .comment-img-con {
+    order: -1;
+  }
+}
